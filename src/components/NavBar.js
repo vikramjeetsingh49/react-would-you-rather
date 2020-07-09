@@ -16,22 +16,23 @@ class Navigation extends Component {
 
     return (
       <Navbar bg="dark" variant="dark">
-        {authedUser !== null ? (
-          <Fragment>
-            <Navbar.Brand>
-              <img src={logo} className="nav-logo" alt="logo" />
-            </Navbar.Brand>
-            <Nav className="mr-auto">
-              <NavLink to="/" exact activeClassName="active">
-                Home
-              </NavLink>
-              <NavLink to="/add" activeClassName="active">
-                New Question
-              </NavLink>
-              <NavLink to="/leaderboard" activeClassName="active">
-                LeaderBoard
-              </NavLink>
-            </Nav>
+        <Fragment>
+          <Navbar.Brand>
+            <img src={logo} className="nav-logo" alt="logo" />
+          </Navbar.Brand>
+          <Nav className="mr-auto">
+            <NavLink to="/" exact activeClassName="active">
+              Home
+            </NavLink>
+            <NavLink to="/add" activeClassName="active">
+              New Question
+            </NavLink>
+            <NavLink to="/leaderboard" activeClassName="active">
+              LeaderBoard
+            </NavLink>
+          </Nav>
+
+          {authedUser !== null ? (
             <Form inline>
               <h5 className="nav-user">
                 Hello, {authedUser ? users[authedUser].name : ""}
@@ -51,10 +52,10 @@ class Navigation extends Component {
                 </Button>
               </NavLink>
             </Form>
-          </Fragment>
-        ) : (
-          ""
-        )}
+          ) : (
+            ""
+          )}
+        </Fragment>
       </Navbar>
     );
   }
