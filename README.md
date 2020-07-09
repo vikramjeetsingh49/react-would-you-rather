@@ -1,22 +1,30 @@
-# MyReads Project
+# Would You Rather Project
 
-This is a Book Tracking App, in which you can categorize your bookshelf in read, currently reading, or want to read. You can move your books from one shelf to another. You can also seach for a book and add it to any of the above bookshelfs.
+In the app, a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”. Answering "neither" or "both" is against the rules. <br/>
+Users will be able to 
+* answer questions
+* see which questions they haven’t answered
+* see how other people have voted
+* post questions
+* see the ranking of users on the leaderboard.
 
 ## Requirements
 
 * Node 8.16.0 or Node 10.16.0 or later (https://nodejs.org/en/)
-* Git
+* Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 
-## TL;DR
+##  Creating an App 
 
-To get started developing right away:
+To Get Started Immediately:
 
-* Download the zip file or clone the repository 
-* Navigate to the repository 
-* Open Terminal Window 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+* Download the zip file or clone the repository using git clone command (https://git-scm.com/docs)
+* Navigate to the repository.
+* Open Terminal Window.
+* install all project dependencies with `npm install`.
+* start the development server with `npm start`.
+
+`npm install` : This command will install all the packages required to run the project.
 
 ## Screens 
 
@@ -24,7 +32,7 @@ To get started developing right away:
 
 ## Backend Server
 
-The provided file [api.js`](src/utils/api.js) contains the methods to perform necessary operations on the backend:
+The provided file [`api.js`](src/utils/api.js) contains the methods to perform necessary operations on the backend:
 
 * [`getInitialData`](#getallquestionsandusers)
 * [`saveQuestion`](#savequestion)
