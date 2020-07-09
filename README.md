@@ -27,8 +27,10 @@ To Get Started Immediately:
 `npm install` : This command will install all the packages required to run the project.
 
 ## Screens 
-
-
+![Image of SignIN](https://github.com/vikramjeetsingh49/react-would-you-rather/blob/master/screenshots/signin.jpg?raw=true)
+![Image of SignIN](https://github.com/vikramjeetsingh49/react-would-you-rather/blob/master/screenshots/home.jpg?raw=true)
+![Image of SignIN](https://github.com/vikramjeetsingh49/react-would-you-rather/blob/master/screenshots/leaderboard.jpg?raw=true)
+![Image of SignIN](https://github.com/vikramjeetsingh49/react-would-you-rather/blob/master/screenshots/new.jpg?raw=true)
 
 ## Backend Server
 
